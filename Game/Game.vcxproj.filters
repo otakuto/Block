@@ -140,5 +140,28 @@
     <Filter Include="BlockManager">
       <UniqueIdentifier>{26011df9-9515-4a1a-a61c-92e554dc5770}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d8264401-7f0f-4e64-93f6-2d46165b9874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Ball">
+      <UniqueIdentifier>{9a3bf223-15aa-445e-b303-bcb9d94a717f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Ball\Big.png">
+      <Filter>Resource\Ball</Filter>
+    </Image>
+    <Image Include="Resource\Ball\Normal.png">
+      <Filter>Resource\Ball</Filter>
+    </Image>
+    <Image Include="Resource\Ball\Small.png">
+      <Filter>Resource\Ball</Filter>
+    </Image>
+    <Image Include="Resource\Body.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Resource\Edge.png">
+      <Filter>Resource</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -44,6 +44,13 @@
     <ClInclude Include="Sprite.hpp" />
     <ClInclude Include="stdafx.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Ball\Big.png" />
+    <Image Include="Resource\Ball\Normal.png" />
+    <Image Include="Resource\Ball\Small.png" />
+    <Image Include="Resource\Body.png" />
+    <Image Include="Resource\Edge.png" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E8933433-E382-4D79-B3E3-FC084C339677}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
