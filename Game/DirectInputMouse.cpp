@@ -1,6 +1,6 @@
 #pragma once
-#include "stdafx.h"
-#include "DirectInputMouse.h"
+#include "stdafx.hpp"
+#include "DirectInputMouse.hpp"
 
 DirectInputMouse::DirectInputMouse(HWND const &hwnd, LPDIRECTINPUT8 const &directInput)
 {

@@ -1,5 +1,5 @@
-#include "stdafx.h"
-#include "BlockManager.h"
+#include "stdafx.hpp"
+#include "BlockManager.hpp"
 
 
 BlockManager::BlockManager()

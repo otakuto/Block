@@ -1,5 +1,5 @@
 #pragma once
-#include "stdafx.h"
+#include "stdafx.hpp"
 
 template<typename ContainerA, typename ContainerB>
 class CollisionManager

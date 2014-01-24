@@ -48,50 +48,50 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Main.h">
-      <Filter>Main</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>stdafx</Filter>
-    </ClInclude>
-    <ClInclude Include="DirectGraphics.h">
-      <Filter>DirectGraphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Sprite</Filter>
-    </ClInclude>
-    <ClInclude Include="Ball.h">
+    <ClInclude Include="Ball.hpp">
       <Filter>Ball</Filter>
     </ClInclude>
-    <ClInclude Include="IRunnable.h">
-      <Filter>IRunnable</Filter>
-    </ClInclude>
-    <ClInclude Include="DirectInputKeyboard.h">
-      <Filter>DirectInputKeyboard</Filter>
-    </ClInclude>
-    <ClInclude Include="DirectInputMouse.h">
-      <Filter>DirectInputMouse</Filter>
-    </ClInclude>
-    <ClInclude Include="DirectInput.h">
-      <Filter>DirectInput</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionManager.h">
-      <Filter>CollisionManager</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="BallSize.h">
+    <ClInclude Include="BallSize.hpp">
       <Filter>BallSize</Filter>
     </ClInclude>
-    <ClInclude Include="Block.h">
+    <ClInclude Include="Block.hpp">
       <Filter>Block</Filter>
     </ClInclude>
-    <ClInclude Include="BlockManager.h">
+    <ClInclude Include="BlockManager.hpp">
       <Filter>BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.hpp">
+      <Filter>CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectGraphics.hpp">
+      <Filter>DirectGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.hpp">
+      <Filter>DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputKeyboard.hpp">
+      <Filter>DirectInputKeyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputMouse.hpp">
+      <Filter>DirectInputMouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IRunnable.hpp">
+      <Filter>IRunnable</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.hpp">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>stdafx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

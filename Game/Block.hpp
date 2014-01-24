@@ -1,7 +1,7 @@
 #pragma once
-#include "stdafx.h"
-#include "Sprite.h"
-#include "Ball.h"
+#include "stdafx.hpp"
+#include "Sprite.hpp"
+#include "Ball.hpp"
 
 template<int id>
 class Block

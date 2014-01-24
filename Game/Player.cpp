@@ -1,8 +1,8 @@
 #pragma once
-#include "stdafx.h"
-#include "Player.h"
-#include "Sprite.h"
-#include "Game.h"
+#include "stdafx.hpp"
+#include "Player.hpp"
+#include "Sprite.hpp"
+#include "Game.hpp"
 
 D3DXVECTOR3 const Player::PLAYER_INITIAL_POSITION((Game::WINDOW_WIDTH / 2), Game::WINDOW_HEIGHT - 40, 0);
 

@@ -1,13 +1,13 @@
 #pragma once
-#include "stdafx.h"
-#include "DirectGraphics.h"
-#include "DirectInput.h"
-#include "DirectInputKeyboard.h"
-#include "DirectInputMouse.h"
-#include "Sprite.h"
-#include "CollisionManager.h"
-#include "Player.h"
-#include "Ball.h"
+#include "stdafx.hpp"
+#include "DirectGraphics.hpp"
+#include "DirectInput.hpp"
+#include "DirectInputKeyboard.hpp"
+#include "DirectInputMouse.hpp"
+#include "Sprite.hpp"
+#include "CollisionManager.hpp"
+#include "Player.hpp"
+#include "Ball.hpp"
 
 class Game
 {

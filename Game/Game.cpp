@@ -1,10 +1,10 @@
 #pragma once
-#include "stdafx.h"
-#include "Game.h"
-#include "Sprite.h"
-#include "Ball.h"
-#include "Player.h"
-#include "BallSize.h"
+#include "stdafx.hpp"
+#include "Game.hpp"
+#include "Sprite.hpp"
+#include "Ball.hpp"
+#include "Player.hpp"
+#include "BallSize.hpp"
 
 int const Game::WINDOW_WIDTH = 800;
 int const Game::WINDOW_HEIGHT = 600;
@@ -26,11 +26,11 @@ collisionManager(playerVector, ballList,
 {
 	ball.Collision();
 }),
-smallBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("ball/small.png"), RECT_INIT(0, 0, 8, 8), D3DXVECTOR3(4, 4, 0), false)),
-normalBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("ball/normal.png"), RECT_INIT(0, 0, 16, 16), D3DXVECTOR3(8, 8, 0), false)),
-bigBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("ball/big.png"), RECT_INIT(0, 0, 32, 32), D3DXVECTOR3(16, 16, 0), false))
+smallBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("Resource/Ball/Small.png"), RECT{0, 0, 8, 8}, D3DXVECTOR3(4, 4, 0), false)),
+normalBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("Resource/Ball/Normal.png"), RECT{0, 0, 16, 16}, D3DXVECTOR3(8, 8, 0), false)),
+bigBallSprite(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("Resource/Ball/Big.png"), RECT{0, 0, 32, 32}, D3DXVECTOR3(16, 16, 0), false))
 {
-	playerVector.push_back(Player(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("body.png"), RECT_INIT(0, 0, 16, 16), D3DXVECTOR3(8, 8, 0), false), std::make_shared<Sprite const>(directGraphics.Device(), TEXT("edge.png"), RECT_INIT(0, 0, 16, 16), D3DXVECTOR3(8, 8, 0), false), directInputMouse.MouseState(), Player::PLAYER_INITIAL_POSITION, 5));
+	playerVector.push_back(Player(std::make_shared<Sprite const>(directGraphics.Device(), TEXT("Resource/Body.png"), RECT{0, 0, 16, 16}, D3DXVECTOR3(8, 8, 0), false), std::make_shared<Sprite const>(directGraphics.Device(), TEXT("Resource/Edge.png"), RECT{0, 0, 16, 16}, D3DXVECTOR3(8, 8, 0), false), directInputMouse.MouseState(), Player::PLAYER_INITIAL_POSITION, 5));
 	ballList.push_back(Ball(smallBallSprite, normalBallSprite, bigBallSprite, D3DXVECTOR3(50, 50, 0), D3DXVECTOR3(10, 10, 0), BallSize::NORMAL));
 }
 

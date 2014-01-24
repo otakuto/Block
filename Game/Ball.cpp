@@ -1,9 +1,9 @@
 #pragma once
-#include "stdafx.h"
-#include "Ball.h"
-#include "Sprite.h"
-#include "Game.h"
-#include "Player.h"
+#include "stdafx.hpp"
+#include "Ball.hpp"
+#include "Sprite.hpp"
+#include "Game.hpp"
+#include "Player.hpp"
 
 Ball::Ball(std::shared_ptr<Sprite const> const smallBallSprite, std::shared_ptr<Sprite const> const normalBallSprite, std::shared_ptr<Sprite const> const bigBallSprite, D3DXVECTOR3 const &position, D3DXVECTOR3 const &speed, BallSize const ballSize)
 :

@@ -1,6 +1,6 @@
 #pragma once
-#include "stdafx.h"
-#include "DirectInputKeyboard.h"
+#include "stdafx.hpp"
+#include "DirectInputKeyboard.hpp"
 
 int const DirectInputKeyboard::KEY_LENGTH = 256;
 

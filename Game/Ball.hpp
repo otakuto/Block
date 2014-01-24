@@ -1,8 +1,8 @@
 #pragma once
-#include "stdafx.h"
-#include "Sprite.h"
-#include "Player.h"
-#include "BallSize.h"
+#include "stdafx.hpp"
+#include "Sprite.hpp"
+#include "Player.hpp"
+#include "BallSize.hpp"
 
 class Ball
 {

@@ -28,21 +28,21 @@
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="BallSize.h" />
-    <ClInclude Include="Block.h" />
-    <ClInclude Include="BlockManager.h" />
-    <ClInclude Include="CollisionManager.h" />
-    <ClInclude Include="DirectGraphics.h" />
-    <ClInclude Include="DirectInput.h" />
-    <ClInclude Include="DirectInputKeyboard.h" />
-    <ClInclude Include="DirectInputMouse.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="IRunnable.h" />
-    <ClInclude Include="Main.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Sprite.h" />
-    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Ball.hpp" />
+    <ClInclude Include="BallSize.hpp" />
+    <ClInclude Include="Block.hpp" />
+    <ClInclude Include="BlockManager.hpp" />
+    <ClInclude Include="CollisionManager.hpp" />
+    <ClInclude Include="DirectGraphics.hpp" />
+    <ClInclude Include="DirectInput.hpp" />
+    <ClInclude Include="DirectInputKeyboard.hpp" />
+    <ClInclude Include="DirectInputMouse.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="IRunnable.hpp" />
+    <ClInclude Include="Main.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Sprite.hpp" />
+    <ClInclude Include="stdafx.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E8933433-E382-4D79-B3E3-FC084C339677}</ProjectGuid>
@@ -90,6 +90,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>stdafx.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

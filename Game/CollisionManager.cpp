@@ -1,3 +1,3 @@
 #pragma once
-#include "stdafx.h"
-#include "CollisionManager.h"
+#include "stdafx.hpp"
+#include "CollisionManager.hpp"
