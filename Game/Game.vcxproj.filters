@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectGraphics.cpp">
+      <Filter>DirectGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="IRunnable.cpp">
+      <Filter>IRunnable</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInputKeyboard.cpp">
+      <Filter>DirectInputKeyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInputMouse.cpp">
+      <Filter>DirectInputMouse</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BallSize.cpp">
+      <Filter>BallSize</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>BlockManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectGraphics.h">
+      <Filter>DirectGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="IRunnable.h">
+      <Filter>IRunnable</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputKeyboard.h">
+      <Filter>DirectInputKeyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputMouse.h">
+      <Filter>DirectInputMouse</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BallSize.h">
+      <Filter>BallSize</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>BlockManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f40599b2-05aa-4670-b0ef-6495bce2a0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e71fe3e4-6dbd-4f03-8af0-987f72457932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{2a59d251-484b-478a-8f9d-79779b6b0c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectGraphics">
+      <UniqueIdentifier>{c34a6492-1026-43dc-919d-1a7872ba11ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{04a7e6df-1047-4592-8239-bed538163fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ball">
+      <UniqueIdentifier>{700b232c-d256-49cb-9403-5b0e84823da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{e607717c-3d5c-44a5-8c1a-05bb8ddb989e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRunnable">
+      <UniqueIdentifier>{10115d94-5c58-45d7-96ca-4ac9707f4bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectInputKeyboard">
+      <UniqueIdentifier>{4dd45526-ca2d-4ba3-bc15-1ce74b47cde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectInputMouse">
+      <UniqueIdentifier>{95a4064e-3542-4f06-bed2-0cd6946d70ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectInput">
+      <UniqueIdentifier>{2e122e8f-8210-40ce-a7ae-c29ec61a5a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionManager">
+      <UniqueIdentifier>{58352d1e-3df0-4b89-8136-d97d465056c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BallSize">
+      <UniqueIdentifier>{473798b7-a6ac-4a41-bba9-0c72160c1dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{08cf082e-10c0-4a6a-8357-b81424994194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlockManager">
+      <UniqueIdentifier>{26011df9-9515-4a1a-a61c-92e554dc5770}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
